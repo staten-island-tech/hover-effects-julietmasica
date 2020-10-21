@@ -77,6 +77,30 @@ body {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.puppies {
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.puppies:hover {
+  border-radius: 0;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .container {
   width: 80vw;
   margin: 2rem auto;
