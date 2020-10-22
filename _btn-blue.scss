@@ -1,0 +1,28 @@
+@import "_variables.scss";
+
+.btn-blue, 
+.btn-blue:link,
+.btn-blue:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    background-color: color(blue);
+    margin: 1rem auto;
+    font-size: 2rem;
+    transition: 0.25s ease;
+    position: relative; 
+}
+
+.btn-blue {
+    background-color: color(blue);
+    color: #fff;
+}
+
+.btn-blue::after {
+    background-color: color(blue);
+    color: #fff;
+}
+
+.btn-blue:hover {
+    border-radius: 25px;
+}

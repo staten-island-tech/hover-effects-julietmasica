@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+.btn-yellow, 
+.btn-yellow:link,
+.btn-yellow:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    background-color: color(yellow);
+    margin: 1rem auto;
+    font-size: 2rem;
+    transition: all 0.3s;
+    position: relative; 
+}
+
+.btn-yellow {
+    background-color: color(yellow);
+    color: #fff;
+}
+
+.btn-yellow::after {
+    background-color: color(yellow);
+    color: #fff;
+}

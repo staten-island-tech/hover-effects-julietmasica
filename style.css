@@ -16,16 +16,15 @@ body {
           box-sizing: border-box;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn-red,
+.btn-red:link,
+.btn-red:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   background-color: #ff5722;
   margin: 1rem auto;
   font-size: 2rem;
-  border-radius: 10rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
@@ -41,19 +40,11 @@ body {
   color: #fff;
 }
 
-.btn:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
-}
-
-.btn::after {
+.btn-red::after {
   content: "";
   display: inline/block;
   height: 100%;
   width: 100%;
-  border-radius: 10rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -62,13 +53,13 @@ body {
   transition: all 0.3s;
 }
 
-.btn:hover:after {
+.btn-red:hover:after {
   -webkit-transform: scaleX(1.5) scaleY(1.6);
           transform: scaleX(1.5) scaleY(1.6);
   opacity: 0;
 }
 
-.btn:active {
+.btn-red:active {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
   -webkit-transform: scaleX(1.5) scaleY(1.6);
@@ -86,17 +77,98 @@ body {
           box-sizing: border-box;
 }
 
-.puppies {
-  height: 20rem;
+.btn-green,
+.btn-green:link,
+.btn-green:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #228b22;
+  margin: 1rem auto;
+  font-size: 2rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border-radius: 50%;
+  position: relative;
 }
 
-.puppies:hover {
-  border-radius: 0;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.btn-green {
+  background-color: #228b22;
+  color: #fff;
+}
+
+.btn-green::after {
+  background-color: #228b22;
+  color: #fff;
+}
+
+.btn-green:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.btn-green::after {
+  content: "";
+  display: inline/block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-green:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-pink,
+.btn-pink:link,
+.btn-pink:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #db7093;
+  margin: 1rem auto;
+  font-size: 2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-pink {
+  background-color: #db7093;
+  color: #fff;
+}
+
+.btn-pink::after {
+  background-color: #db7093;
+  color: #fff;
+}
+
+.btn-pink:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.btn-pink::after {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
@@ -110,20 +182,65 @@ body {
           box-sizing: border-box;
 }
 
-.text-effect {
-  background-image: url("./media/dog.jpg");
-  background-position: center;
-  color: transparent;
-  font-size: 8rem;
-  -webkit-background-clip: text;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.btn-blue,
+.btn-blue:link,
+.btn-blue:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #00b0ff;
+  margin: 1rem auto;
+  font-size: 2rem;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
+  position: relative;
 }
 
-.text-effect:hover {
-  -webkit-transform: skewY(-10deg);
-          transform: skewY(-10deg);
-  letter-spacing: 3rem;
+.btn-blue {
+  background-color: #00b0ff;
+  color: #fff;
+}
+
+.btn-blue::after {
+  background-color: #00b0ff;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  border-radius: 25px;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-yellow,
+.btn-yellow:link,
+.btn-yellow:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #daa520;
+  margin: 1rem auto;
+  font-size: 2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-yellow {
+  background-color: #daa520;
+  color: #fff;
+}
+
+.btn-yellow::after {
+  background-color: #daa520;
+  color: #fff;
 }
 
 .container {
