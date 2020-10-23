@@ -234,13 +234,22 @@ body {
 }
 
 .btn-yellow {
-  background-color: #daa520;
-  color: #fff;
+  border-color: #000;
+  color: #000;
 }
 
-.btn-yellow::after {
-  background-color: #daa520;
-  color: #fff;
+.btn-yellow:hover {
+  border-color: #353535;
+  background-color: #000;
+  color: #daa520;
+}
+
+.btn-yellow:before {
+  border-color: #000;
+}
+
+.btn-yellow:after {
+  border-color: #daa520;
 }
 
 .container {

@@ -14,11 +14,18 @@
 }
 
 .btn-yellow {
-    background-color: color(yellow);
-    color: #fff;
+    border-color: color(black);
+    color: color(black);
+}
+.btn-yellow:hover {
+    border-color: #353535;
+    background-color: color(black);
+    color: color(yellow);
+}
+.btn-yellow:before {
+    border-color: color(black);
 }
 
-.btn-yellow::after {
-    background-color: color(yellow);
-    color: #fff;
+.btn-yellow:after {
+    border-color: color(yellow);
 }
