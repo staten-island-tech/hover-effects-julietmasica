@@ -15,12 +15,12 @@
 
 .btn-red {
     background-color: color(red);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-red::after {
     background-color: color(red);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-red::after { 

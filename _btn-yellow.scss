@@ -11,21 +11,15 @@
     font-size: 2rem;
     transition: all 0.3s;
     position: relative; 
-}
-
-.btn-yellow {
-    border-color: color(black);
     color: color(black);
 }
+
 .btn-yellow:hover {
-    border-color: #353535;
-    background-color: color(black);
-    color: color(yellow);
-}
-.btn-yellow:before {
-    border-color: color(black);
+    transform: scale(1.3);
+    letter-spacing: 7px;
 }
 
-.btn-yellow:after {
-    border-color: color(yellow);
+.btn-yellow:active {
+    transform: scale(1.3);
+    letter-spacing: 7px;
 }

@@ -32,12 +32,12 @@ body {
 
 .btn-red {
   background-color: #ff5722;
-  color: #fff;
+  color: #000;
 }
 
 .btn-red::after {
   background-color: #ff5722;
-  color: #fff;
+  color: #000;
 }
 
 .btn-red::after {
@@ -93,12 +93,12 @@ body {
 
 .btn-green {
   background-color: #228b22;
-  color: #fff;
+  color: #000;
 }
 
 .btn-green::after {
   background-color: #228b22;
-  color: #fff;
+  color: #000;
 }
 
 .btn-green:hover {
@@ -155,22 +155,22 @@ body {
 
 .btn-pink {
   background-color: #db7093;
-  color: #fff;
+  color: #000;
 }
 
 .btn-pink::after {
   background-color: #db7093;
-  color: #fff;
+  color: #000;
 }
 
 .btn-pink:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 .btn-pink::after {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 html,
@@ -194,20 +194,14 @@ body {
   -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
   position: relative;
-}
-
-.btn-blue {
-  background-color: #00b0ff;
-  color: #fff;
-}
-
-.btn-blue::after {
-  background-color: #00b0ff;
-  color: #fff;
+  color: #000;
 }
 
 .btn-blue:hover {
-  border-radius: 25px;
+  text-decoration: underline;
+  border-radius: 3rem;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 html,
@@ -231,25 +225,26 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
-}
-
-.btn-yellow {
-  border-color: #000;
   color: #000;
 }
 
 .btn-yellow:hover {
-  border-color: #353535;
-  background-color: #000;
-  color: #daa520;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  letter-spacing: 7px;
 }
 
-.btn-yellow:before {
-  border-color: #000;
+.btn-yellow:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  letter-spacing: 7px;
 }
 
-.btn-yellow:after {
-  border-color: #daa520;
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -270,5 +265,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.header {
+  font-size: 3rem;
+  margin-top: 0rem;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.sub-header {
+  font-size: 2rem;
+  margin-top: -3rem;
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=style.css.map */

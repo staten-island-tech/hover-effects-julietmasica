@@ -11,18 +11,12 @@
     font-size: 2rem;
     transition: 0.25s ease;
     position: relative; 
-}
-
-.btn-blue {
-    background-color: color(blue);
-    color: #fff;
-}
-
-.btn-blue::after {
-    background-color: color(blue);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-blue:hover {
-    border-radius: 25px;
+    text-decoration: underline;
+    border-radius: 3rem;
+    transform: scale(1.2);
 }
+

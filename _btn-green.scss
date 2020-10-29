@@ -15,12 +15,12 @@
 
 .btn-green {
     background-color: color(green);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-green::after {
     background-color: color(green);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-green:hover {

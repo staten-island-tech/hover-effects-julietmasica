@@ -15,18 +15,18 @@
 
 .btn-pink {
     background-color: color(pink);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-pink::after {
     background-color: color(pink);
-    color: #fff;
+    color: color(black);
 }
 
 .btn-pink:hover {
-    transform: scale(1.3);
+    transform: scale(0.8);
 }
 
 .btn-pink::after {
-    transform: scale(1.3);
+    transform: scale(0.8);
 }
